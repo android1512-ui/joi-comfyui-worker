@@ -1,4 +1,4 @@
-FROM runpod/worker-comfyui:latest
+FROM runpod/worker-comfyui:5.4.0-base
 
 # Install custom nodes
 RUN cd /comfyui/custom_nodes && \
