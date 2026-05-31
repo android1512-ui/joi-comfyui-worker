@@ -1,4 +1,4 @@
-FROM runpod/worker-comfyui:5.4.0-base
+FROM runpod/worker-comfyui:5.8.5-base
 
 # Ensure custom_nodes directory exists
 RUN mkdir -p /comfyui/custom_nodes
