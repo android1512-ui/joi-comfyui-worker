@@ -1,4 +1,4 @@
-FROM registry.runpod.net/runpod-workers/worker-comfyui-main-dockerfile:d2a557235
+FROM runpod/worker-comfyui:latest
 
 # Install custom nodes
 RUN cd /comfyui/custom_nodes && \
